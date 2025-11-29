@@ -6,7 +6,7 @@ import pandas as pd
 import requests
 import streamlit as st
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://autonomous-qa-agent-sz1j.onrender.com/")
 
 
 def check_backend() -> bool:
